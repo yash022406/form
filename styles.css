@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0.15rem;
+    
+}
+
+.header{
+    width: 90vw;
+}
+.header > .event-name{
+    width: 22.5vw;
+}
+.header > .description  {
+    width: 92.5vw;
+    height: 75px;
+}
+.middle{
+    display: flex;
+}
+
+.left{
+    flex: 0.35;
+    border-right: 1px solid grey;
+}
+.left > .left-inputs{
+    width: 22.5vw;
+
+}
+.attachments{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-left: 75px;
+    width: 20vw;
+    border: 2px dashed #1475cf;
+
+}
+.right{
+    flex: 0.6;
+}
+.sponpart{
+    font-weight: 600;
+}
+.bottom{
+    margin-top: 2rem;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.bottom input{
+    width: 35vw;
+}
+.button
+{
+    margin-bottom: 2rem;
+}
+.submit{
+    position: absolute;
+    right: 2rem;
+    margin-bottom: 5rem;
+    border: none;
+    background-color: #1475cf;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    
+}
+@media screen and (max-width: 650px) {
+    .header > .event-name{
+        width: 40vw;
+    }
+    .middle{
+        flex-direction: column;
+    }
+    .left{
+        flex: 1;
+        border-right: none;
+    }
+    .right{
+        flex: 1;
+    }
+    .left > .left-inputs{
+        width: 92vw;
+    
+    }
+    .attachments{
+        width: 82vw;
+    }
+    .bottom{
+        width: 90vw;
+    }
+    .bottom input{
+        width: 70vw;
+    }
+    .submit{
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
