@@ -4,11 +4,7 @@
     margin: 0rem;
     
 }
-body {
-    background-image:url("./assets/milad-fakurian-E8Ufcyxz514-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
+
 .form{
     margin:1rem;
     padding: 1.5rem;
@@ -32,7 +28,7 @@ body {
     display: flex;
 }
 .input{
-    background-color: rgba(240, 240, 240, 0.9);
+
 }
 
 .left{
